@@ -61,7 +61,9 @@
       <section class="section effective-solutions">
         <div class="container">
           <h1 class="effective-solutions-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="btn" data-modal-open>Заказать услугу</button>
+          <button type="button" class="btn effective-solutions-btn" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <section class="section our-peculiarities">
@@ -455,8 +457,8 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <ul class="footer-content">
-          <li class="footer-address">
+        <div class="footer-content">
+          <div class="footer-address">
             <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
             <address>
               <ul class="footer-contacts">
@@ -478,8 +480,8 @@
                 </li>
               </ul>
             </address>
-          </li>
-          <li class="footer-social">
+          </div>
+          <div class="footer-social">
             <h3 class="footer-social-title">Присоединяйтесь</h3>
             <ul class="footer-social-list">
               <li class="footer-social-network">
@@ -531,8 +533,30 @@
                 </a>
               </li>
             </ul>
-          </li>
-        </ul>
+          </div>
+          <div class="footer-subscribe">
+            <h3 class="footer-subscribe-title">Подпишитесь на рассылку</h3>
+            <form action="" class="subscribe-form">
+              <div class="subscribe-box">
+                <input
+                  type="email"
+                  class="subscribe-form-input"
+                  placeholder=" "
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                />
+                <label for="email" class="subscribe-label">E-mail</label>
+                <button class="subscribe-form-button btn" type="submit">
+                  <span class="subscribe-button-text">Подписаться</span>
+                  <svg class="subscribe-form-icon" width="24" height="24">
+                    <use href="./images/icons.svg#telegram"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>

@@ -249,8 +249,8 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <ul class="footer-content">
-          <li class="footer-address">
+        <div class="footer-content">
+          <div class="footer-address">
             <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
             <address>
               <ul class="footer-contacts">
@@ -272,41 +272,83 @@
                 </li>
               </ul>
             </address>
-          </li>
-          <li class="footer-social">
+          </div>
+          <div class="footer-social">
             <h3 class="footer-social-title">Присоединяйтесь</h3>
             <ul class="footer-social-list">
               <li class="footer-social-network">
-                <a href="#" class="footer-social-link">
+                <a
+                  href="#"
+                  class="footer-social-link"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                >
                   <svg class="icon-footer-social-newtork">
                     <use href="./images/icons.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-social-network">
-                <a href="#" class="footer-social-link">
+                <a
+                  href="#"
+                  class="footer-social-link"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                >
                   <svg class="icon-footer-social-newtork">
                     <use href="./images/icons.svg#twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-social-network">
-                <a href="#" class="footer-social-link">
+                <a
+                  href="#"
+                  class="footer-social-link"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                >
                   <svg class="icon-footer-social-newtork">
                     <use href="./images/icons.svg#facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-social-network">
-                <a href="#" class="footer-social-link">
+                <a
+                  href="#"
+                  class="footer-social-link"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                >
                   <svg class="icon-footer-social-newtork">
                     <use href="./images/icons.svg#linkedin"></use>
                   </svg>
                 </a>
               </li>
             </ul>
-          </li>
-        </ul>
+          </div>
+          <div class="footer-subscribe">
+            <h3 class="footer-subscribe-title">Подпишитесь на рассылку</h3>
+            <form action="" class="subscribe-form">
+              <div class="subscribe-box">
+                <input
+                  type="email"
+                  class="subscribe-form-input"
+                  placeholder=" "
+                  name="email"
+                  id="email"
+                  autocomplete="off"
+                />
+                <label for="email" class="subscribe-label">E-mail</label>
+                <button class="subscribe-form-button btn" type="submit">
+                  <span class="subscribe-button-text">Подписаться</span>
+                  <svg class="subscribe-form-icon" width="24" height="24">
+                    <use href="./images/icons.svg#telegram"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
